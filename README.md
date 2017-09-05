@@ -11,7 +11,7 @@ The enormous growth and usage of e-commerce offer positive ways to any business 
 
 <img src="Screenshots/Architecture.png" width="60%" height="60%" />
 
-This project is extended as a web hook to serve different e-commerce companies in the market. The interface is developed using ASP.NET and APIs are be provided to communicate with the service. A unique key will be generated for each client which acts as an identifier. The requests sent by the clients will be in JSON format and would comprise of:	
+This project is extended as a web hook to serve different e-commerce companies in the market. The interface is developed using ASP.NET and APIs are be provided to communicate with the service. A unique key is generated for each client which acts as an identifier. The requests sent by the clients is in JSON format and comprises of:	
   - Review text, review id, product id etc. whenever a review is posted.
   - Up votes or down votes received for a review
   
@@ -34,7 +34,7 @@ This project is extended as a web hook to serve different e-commerce companies i
       });
  ```
 
-The collected data is be processed by the review classifier engine and the analysis drawn is visualized via graphs and charts. The interface is completely query based whereby which the clients have total control on the manner in which they wish to utilize/visualize the processed information.
+The collected data is processed by the review classifier engine and the analysis drawn is visualized via graphs and charts. The interface is completely query based whereby which the clients have total control on the manner in which they wish to utilize/visualize the processed information.
 
 The code-base for the sentiment analysis engine is located at ![nileshsah/Sentiment-Analysis-API](https://github.com/nileshsah/Sentiment-Analysis-API).
 
